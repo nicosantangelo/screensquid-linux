@@ -100,20 +100,25 @@ code {
   padding: 4em 6em 0;
 }
 
-@media screen and (max-width: 320px) {
-  .main {
-    padding: 4em 5em 0;
-  }
-}
-
 .description {
   color: #888888;
 }
+
 .lead {
   margin-bottom: 20px;
   font-size: 16px;
   font-weight: 300;
   line-height: 1.4em;
+}
+
+@media screen and (max-width: 768px) {
+  .main {
+    padding: 4em 3em 0;
+  }
+
+  .description {
+    margin-bottom: 0;
+  }
 }
 
 header h1 {
@@ -131,10 +136,15 @@ h2.title {
 
 }
 
-section {
-  margin: 50px 0;
+.download-section {
+  margin-top: 30px;
+  margin-bottom: 50px;
 }
 
+.steps-section {
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
 
 .steps {
   margin-left: 30px;
@@ -147,7 +157,7 @@ section {
 
 .footer {
   width: 100%;
-  margin-bottom; 20px;
+  margin-bottom: 20px;
   text-align: center;
 }
 

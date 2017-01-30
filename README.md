@@ -4,9 +4,9 @@
 
 ## Download my pre-packaged version
 
-[ia32]()
-[x64]()
-[armv7l]()
+[ia32](https://github.com/NicoSantangelo/screensquid-linux/releases/download/1.0.0/Screensquid-linux-ia32.zip)
+[x64](https://github.com/NicoSantangelo/screensquid-linux/releases/download/1.0.0/Screensquid-linux-x64.zip)
+[armv7l](https://github.com/NicoSantangelo/screensquid-linux/releases/download/1.0.0/Screensquid-linux-armv7l.zip)
 
 ## Create your own
 

@@ -1,0 +1,156 @@
+/*
+* Fonts
+*/
+
+@font-face {
+font-family: 'Geometria';
+src: url(../fonts/Geometria-Light.otf);
+font-weight: bold;
+font-style: normal;
+}
+
+/*
+* Common
+*/
+
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+ul {
+  padding: 0;
+}
+
+a {
+  color: #92B45E;
+  text-decoration: none;
+}
+
+a:focus,
+a:active,
+a:hover {
+  color: #92B45E;
+  text-decoration: none;
+  outline: 0;
+}
+
+pre {
+  margin-bottom: 1em;
+  padding: 5px;
+  padding-bottom: 20px !ie7;
+  width: auto;
+  width: 650px !ie7;
+  max-height: 600px;
+  overflow: auto;
+  font-size: 13px;
+  font-family: Consolas,Menlo,Monaco,Lucida Console,Liberation Mono,DejaVu Sans Mono,Bitstream Vera Sans Mono,Courier New,monospace,sans-serif;
+  background-color: #EFF0F1;
+}
+
+code {
+  padding: 1px 5px;
+  font-family: Consolas,Menlo,Monaco,Lucida Console,Liberation Mono,DejaVu Sans Mono,Bitstream Vera Sans Mono,Courier New,monospace,sans-serif;
+  background-color: #EFF0F1;
+  white-space: pre-wrap;
+}
+
+
+.btn {
+  display: inline-block;
+  margin-bottom: 0;
+  margin-right: 5px;
+  font-weight: normal;
+  text-align: center;
+  vertical-align: middle;
+  touch-action: manipulation;
+  cursor: pointer;
+  background-image: none;
+  border: 1px solid transparent;
+  white-space: nowrap;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.42857;
+  border-radius: 3px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.btn-primary {
+  color: #FFF;
+  background-color: #92B45E;
+  border-color: #86AA4F;
+}
+
+.btn-primary:hover {
+  color: #FFF;
+  background-color: #789847;
+  border-color: #65803C;
+}
+
+.main {
+  margin: 0 auto;
+  max-width: 100em;
+  padding: 4em 6em 0;
+}
+
+@media screen and (max-width: 320px) {
+  .main {
+    padding: 4em 5em 0;
+  }
+}
+
+.description {
+  color: #888888;
+}
+.lead {
+  margin-bottom: 20px;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.4em;
+}
+
+header h1 {
+  font-size: 3em;
+  font-family: "Avenir Next", Lato, Sans-Serif;
+  margin-top: 0;
+  margin-bottom: 17px;
+  font-weight: 500;
+  line-height: 1.1;
+}
+
+h2.title {
+  font-family: "Avenir Next", Lato, Sans-Serif;
+  font-weight: 500;
+
+}
+
+section {
+  margin: 50px 0;
+}
+
+
+.steps {
+  margin-left: 30px;
+}
+
+.steps li {
+  margin: 10px 0;
+}
+
+
+.footer {
+  width: 100%;
+  margin-bottom; 20px;
+  text-align: center;
+}
+
+.footer .text {
+  margin: 0 4px;
+}

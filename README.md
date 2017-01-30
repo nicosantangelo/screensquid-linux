@@ -10,7 +10,7 @@
 
 ## Create your own
 
-You'll need to have `[asar](https://www.npmjs.com/package/asar)` and `[electron-packager](https://github.com/electron-userland/electron-packager)` installed
+You'll need to have [`asar`](https://www.npmjs.com/package/asar) and [`electron-packager`](https://github.com/electron-userland/electron-packager) installed
 
 - Get your hands on the app contents. You could try installing it on a Windows/Mac VM or in a borrowed computer
 - Find the `app.asar` and `electron.asar` files, usually under the `Resources` folder
